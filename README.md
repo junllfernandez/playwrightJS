@@ -24,12 +24,15 @@ Open test report on a browser
 
 Verify home page items
 
+
 Given mcdonalds website (mcdonalds.co.nz) is visited
 
 Then McDonalds home page is displayed
 
 
+
 Search functionality
+
 
 Given mcdonalds website (mcdonalds.co.nz) is visited
 
@@ -49,7 +52,9 @@ When first search result is clicked
 Then Double Big Mac description page is displayed
 
 
+
 View full menu
+
 
 Given mcdonalds website (mcdonalds.co.nz) is visited
 
@@ -69,7 +74,9 @@ Then Full Menu page is displayed
 
 
 
+
 View rewards page
+
 
 Given mcdonalds website (mcdonalds.co.nz) is visited
 
