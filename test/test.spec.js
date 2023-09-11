@@ -34,8 +34,7 @@ test.describe('Visit base url', () => {
     
     const homepage = new Homepage(page)
     const menupage = new Menupage(page)
-    // Click main banner
-    await homepage.homePageSection.click()
+    
     await homepage.burgerIcon.click()
     await menupage.pickupOption.click()
     await menupage.rewardsSection.scrollIntoViewIfNeeded()
